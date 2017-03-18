@@ -4,7 +4,7 @@ block_cipher = None
 
 
 a = Analysis(['main.py'],
-             pathex=['/home/script/Desktop/MIM Foundation'],
+             pathex=['/home/script/Desktop/MIM-Foundation'],
              binaries=[],
              datas=[],
              hiddenimports=[],

@@ -14,7 +14,6 @@ class MIM(QtGui.QDialog, main.Ui_Dialog):
 
 
 	def config(self):
-
 		self._webKit.load(QtCore.QUrl('http://mimfoundation.or.id/santri/account/login'))
 		self.verticalLayout_2.addWidget(self._webKit)
 		self.connect(QtGui.QShortcut(QtGui.QKeySequence(QtCore.Qt.Key_F1), self), QtCore.SIGNAL('activated()'), self._about)	
